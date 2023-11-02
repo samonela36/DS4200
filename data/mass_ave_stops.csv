@@ -1,0 +1,9 @@
+﻿stop_name,display_name,routes,lat,long,color,type
+mass_washington,Mass. Ave. @ Washington St.,SL4 SL5 8 15 1,42.3364,-71.0772,#FDDA0D,bus
+mass_tremont,Mass. Ave. @ Tremont St.,1,42.3395,-71.0804,#FDDA0D,bus
+mass_harrison,Mass. Ave. @ Harrison St.,1,42.3347,-71.0751,#FDDA0D,bus
+mass_albany,Mass. Ave. @ Albany St.,8 9 10 171 CT3 1,42.3335842,-71.07336,#FDDA0D,bus
+mass_island,Mass. Ave. @ Island St.,8 9 10 171,42.33125,-71.0707,#FDDA0D,bus
+mass_ave,Massachusetts Avenue,Orange 1,42.3416581,-71.0834854,#FF7518,rail
+symphony,Symphony,Green,42.34269,-71.085061,#50C878,rail
+mass_botolph,Mass. Ave. @ St. Botolph,1,42.342434,-71.08424,#FDDA0D,bus

@@ -1,0 +1,117 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0772,42.3364 ]
+    },
+    "properties": {
+    "stop_name":"mass_washington",
+    "display_name":"Mass. Ave. @ Washington St.",
+    "routes":"SL4 SL5 8 15 1",
+    "color":"#FDDA0D",
+    "type":"bus"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0804,42.3395 ]
+    },
+    "properties": {
+    "stop_name":"mass_tremont",
+    "display_name":"Mass. Ave. @ Tremont St.",
+    "routes":"1",
+    "color":"#FDDA0D",
+    "type":"bus"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0751,42.3347 ]
+    },
+    "properties": {
+    "stop_name":"mass_harrison",
+    "display_name":"Mass. Ave. @ Harrison St.",
+    "routes":"1",
+    "color":"#FDDA0D",
+    "type":"bus"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.07336,42.3335842 ]
+    },
+    "properties": {
+    "stop_name":"mass_albany",
+    "display_name":"Mass. Ave. @ Albany St.",
+    "routes":"8 9 10 171 CT3 1",
+    "color":"#FDDA0D",
+    "type":"bus"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0707,42.33125 ]
+    },
+    "properties": {
+    "stop_name":"mass_island",
+    "display_name":"Mass. Ave. @ Island St.",
+    "routes":"8 9 10 171",
+    "color":"#FDDA0D",
+    "type":"bus"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0834854,42.3416581 ]
+    },
+    "properties": {
+    "stop_name":"mass_ave",
+    "display_name":"Massachusetts Avenue",
+    "routes":"Orange 1",
+    "color":"#FF7518",
+    "type":"orange"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.085061,42.34269 ]
+    },
+    "properties": {
+    "stop_name":"symphony",
+    "display_name":"Symphony",
+    "routes":"Green",
+    "color":"#50C878",
+    "type":"green"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.08424,42.342434 ]
+    },
+    "properties": {
+    "stop_name":"mass_botolph",
+    "display_name":"Mass. Ave. @ St. Botolph",
+    "routes":"1",
+    "color":"#FDDA0D",
+    "type":"bus"
+    }
+  }
+]
+}
