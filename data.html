@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="copyright" content="MACode ID, https://macodeid.com/">
+    <title>DS 4200 Final Project</title>
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="assets/css/maicons.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <script src="components/page/footer.js" type="text/javascript" defer></script>
+    <script src="components/page/header.js" type="text/javascript" defer></script>
+
+</head>
+<body>
+<!-- Back to top button -->
+<div class="back-to-top"></div>
+<header-component pagename="Data"></header-component>
+
+  <div class="page-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col py-3">
+          <h2 class="title-section">Data</h2>
+          <div class="divider"></div>
+
+          <p>
+            The data in this report was collected from various official City of Boston datasets. The majority of the data 
+            used was either quantitative or categorical. Much of the quantitative data included time data and MBTA ridership 
+            numbers. The categorical data consisted mostly of representations of various MBTA and Bus lines, as well as 
+            categorical time data representing a season, or time of day. The main datasets used in our visualizations were 
+            related to MBTA data including MBTA bus ridership by time, MBTA rail ridership by time, and MBTA reliability. 
+            We also used the PATI bus stops data set, the current Blue Bikes stations dataset, and data showing bike usage 
+            on Mass Ave south of Shawmut.
+            <br><br>
+            One of the first questions we sought to answer was “what public transportation is available to the community?” 
+            In order to provide a visualization for this question, we compiled data from multiple different data sets including 
+            MBTA Bus and Rail data and Blue Bike data. Our goal here was to explicitly show what kind of access residents of 
+            Mass Ave had to public transportation by showing each stop/station on a map. We combined data from two different 
+            datasets that described Blue Bike and bus coordinates respectively, and then manually found the coordinates for 
+            the T stations on Google Maps. This dataset provided us with a good start to our visualizations by showing us what 
+            existed in the area around the focus portion of Mass Ave.
+            <br><br>
+            In addition to visualizing public transportation access, we also wanted to look into ridership and reliability data. 
+            This was done via our MBTA Bus and MBTA train ridership by time data as well as our MBTA reliability data. These 
+            datasets contained a lot of different data but we were focusing on average reliability which was quantitative and 
+            average ons which was also quantitative. Again, this data was already formatted well and required little to no 
+            cleaning or change. We were able to use this data to visualize MBTA reliability as shown below.
+            <br><br>
+            Next, we wanted to investigate non-public transportation usage, specifically cars and bikes. The only dataset we 
+            had that covered this however was already in a presented, PDF format. In order to format this data the way we wanted 
+            we had to transcribe it into a usable CSV format and then we were able to combine car and bike data to see how usage 
+            of each changed over time on Mass Ave. These datasets contained mostly quantitative data and we specifically looked 
+            at time, number of bicycles, number of motor vehicles, and percentage of bicycles among all vehicles.
+            <br><br>
+            Once we covered basic availability and usage questions pertaining to transport, we wanted to look into car and 
+            bike-related accident data. For this, we turned to our Vision Zero Crash Record dataset. The data we were looking at 
+            was mostly quantitative and we specifically looked at quantitative data representing location coordinates as well as 
+            categorical data representing specific cross streets along Mass Ave. Using this data we were able to make heat maps 
+            showing where accidents mostly occur in the area and we were able to make direct comparisons between important cross 
+            streets and the number of accidents they had.
+            <br><br>
+            Overall the datasets used made it relatively simple to extract the information we needed and visualize what we needed 
+            to begin answering our questions. 
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer-component><footer-component/>
+
+</body>
+</html>
